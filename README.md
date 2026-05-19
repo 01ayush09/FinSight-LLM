@@ -68,12 +68,6 @@ finllm-finetune/
 
 ---
 
-## Resume Bullet
-
-> Fine-tuned Llama 3.2-3B on FinQA (6,251 samples) using QLoRA (r=16, 4-bit) via Unsloth;
-> improved Exact Match by +21% and BERTScore F1 by +0.11 over base model. Built a 4-layer
-> eval harness (EM/F1, ROUGE-L, BERTScore, LLM-as-judge) across 3 LoRA rank ablations;
-> deployed adapter via FastAPI + Docker with <200 ms p95 latency.
 
 ---
 
